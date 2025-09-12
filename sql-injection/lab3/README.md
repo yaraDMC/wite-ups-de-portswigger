@@ -27,6 +27,38 @@ y ahora veremos la version de la base de asi mediante el payload:
 
 ya que tuvimos la pista en cheat-sheet de como podiamos buscar la version de la base de datos
 
+🛡️ Implicaciones de Seguridad y Prevención
+Este ejercicio demostró cómo un atacante podría:
 
+Acceder a datos sensibles de múltiples tablas
+
+Comprometer todas las cuentas de usuario del sistema
+
+Escalar privilegios hasta obtener control administrativo
+
+Medidas de prevención que aprendí:
+
+Implementar consultas parametrizadas para prevenir inyección
+
+Aplicar el principio de mínimo privilegio en permisos de base de datos
+
+Validar y sanitizar todas las entradas del usuario
+
+Utilizar técnicas de ofuscación para errores de base de datos
+
+Implementar controles de seguridad en capas (WAF, logging y monitoreo)
+
+📈 Conclusión
+La resolución de este laboratorio me permitió desarrollar habilidades avanzadas en:
+
+Técnicas de explotación de SQL Injection con UNION
+
+Análisis de estructura de bases de datos
+
+Extracción sistemática de información sensible
+
+Aplicación de medidas de prevención efectivas
+
+Esta experiencia refuerza mi capacidad para identificar y mitigar vulnerabilidades críticas en aplicaciones web, aportando valor significativo en roles de seguridad informática y desarrollo seguro.
 
 
