@@ -2,3 +2,5 @@ Primero quiero explicar que es una vulnerabilidad que se explota cuando el ataca
 y ahora si quiero explicaar el laboratorio de SQL injection
 LABORATORIO 1/16
 ![](https://github.com/yaraDMC/wite-ups-de-portswigger/blob/main/sql-injection/lab1/images/lab1.png)
+
+el laboratorio nos pide lo siguiente
