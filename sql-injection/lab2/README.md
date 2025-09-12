@@ -31,3 +31,33 @@ y ingresamos:
 3. Resultado y Acceso Exitoso
 Al enviar el formulario con el payload, la aplicación procesó la consulta manipulada:
 SELECT * FROM users WHERE username = 'administrator'--' AND password = ''
+
+🛡️ Implicaciones de Seguridad y Prevención
+Este ejercicio demostró cómo un atacante podría:
+
+Acceder a información sensible sin autorización
+
+Suplantar identidades de usuarios privilegiados
+
+Comprometer la integrididad de los datos
+
+Medidas de prevención que aprendí:
+
+Implementar consultas parametrizadas (Prepared Statements)
+
+Validar y sanitizar todas las entradas del usuario
+
+Utilizar principios de mínimo privilegio en bases de datos
+
+Implementar controles de seguridad en capas (WAF, rate limiting)
+
+📈 Conclusión
+Aunque utilicé pistas para resolver este laboratorio, el proceso me permitió desarrollar una comprensión práctica de:
+
+Cómo se explotan las vulnerabilidades SQL Injection en entornos reales
+
+La importancia de los controles de seguridad en el desarrollo de aplicaciones
+
+Técnicas para identificar y prevenir vulnerabilidades comunes
+
+Esta experiencia refuerza mi compromiso con el desarrollo seguro y mi capacidad para aportar valor en roles relacionados con la ciberseguridad y el desarrollo de software.
