@@ -20,6 +20,10 @@ Método UNION SELECT: Confirmé el número de columnas usando:
 category=Gifts' UNION SELECT 'NULL','NULL' FROM dual--
 ![](https://github.com/yaraDMC/wite-ups-de-portswigger/blob/main/sql-injection/lab3/images/union2.png)
 
+La consulta se ejecutó sin errores, confirmando que la consulta original retornaba 2 columnas.
+
+y ahora veremos la version de la base de asi mediante el payload:
+<img width="1154" height="817" alt="image" src="https://github.com/user-attachments/assets/8a00b130-68a4-435b-8891-a64dba44c5b2" />
 
 
 
