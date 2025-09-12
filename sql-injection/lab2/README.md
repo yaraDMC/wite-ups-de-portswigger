@@ -15,7 +15,7 @@ Identificar que los campos de entrada no sanitizaban caracteres especiales
 
 Reconocer que la aplicación utilizaba una consulta SQL directa para verificar credenciales
 y ponemos la credennciales junto con la SQL injection
-![](https://github.com/yaraDMC/wite-ups-de-portswigger/tree/main/sql-injection/lab2/images)
+![](https://github.com/yaraDMC/wite-ups-de-portswigger/blob/main/sql-injection/lab2/images/sql-injection.png)
 
 Utilicé el siguiente payload en el campo de usuario:
 administrator'--
@@ -27,7 +27,7 @@ administrator : Nombre de usuario objetivo
 -- : Comenta el resto de la consulta, ignorando la verificación de contraseña
 
 y ingresamos:
-![](https://github.com/yaraDMC/wite-ups-de-portswigger/tree/main/sql-injection/lab2/images)
+![](https://github.com/yaraDMC/wite-ups-de-portswigger/blob/main/sql-injection/lab2/images/finish.png)
 3. Resultado y Acceso Exitoso
 Al enviar el formulario con el payload, la aplicación procesó la consulta manipulada:
 SELECT * FROM users WHERE username = 'administrator'--' AND password = ''
