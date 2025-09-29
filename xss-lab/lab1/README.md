@@ -3,4 +3,5 @@ que manipula el sitio web para que devuelva Javacript malicioso a los usuarios q
 una manera de confirmar esta vulenrabilidad en el sitio web es en el JavaScript es utilizar *alert()*.
 Los tipos de ataques XSS
 existen tres tipos principales de ataques xss:
-*XSS reflejado* esta variante se produce cuando una aplicacion 
+*XSS reflejado* esta variante se produce cuando una aplicacion recibe datos en una solicitud HTTP 
+*XSS almacenado* 
